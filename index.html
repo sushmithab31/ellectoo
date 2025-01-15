@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ellectoo | Online Electronics Strore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar1">
+      <h1>Ellectoo</h1>
+      <div class="searchbar">
+          <input type="text" placeholder="       What Are You Looking For ?? ">
+      </div>
+      <div class="navicons">
+        <div onclick="addshowish()" id="addwish" class="icon1">
+          <p><i class="fa-solid fa-heart"></i></p>
+          <p>Wishlist</p>
+        </div>
+
+        <div onclick="addshow()" id="addcart" class="icon2">
+          <p><i class="fa-solid fa-cart-shopping"></i></p>
+          <p>Cart</p>
+        </div>
+
+        <div onclick="showprf()" id="addprf" class="icon3">
+          <p><i class="fa-solid fa-user"></i></p>
+          <p>My Account</p>
+        </div>
+      </div>
+    </nav>
+
+    <div class="wishpop">
+      <h2>Your Wishlist</h2>
+      <center>
+        <p>Your wishlist is empty, kindly Log In or Sign Up and start to add products in your wishlist for ypur better shopping experience.</p><br>
+        <a href="index.html">continue shopping</a><br>
+        <button onclick="backwishpop()" class="backwish">Go Back</button>
+      </center>
+    </div>
+
+    <div class="cartpop">
+      <h2>Your Cart Is Empty</h2>
+      <center>
+        <img src="depositphotos_186468422-stock-video-shopping-cart-empty-hd-animation.jpg" height="100px" width="100px"><br>
+        <a href="index.html">continue shopping</a><br>
+        <button onclick="backcartpop()" class="backcart">Go Back</button>
+      </center>
+    </div>
+
+    <div class="prfpop">
+      <h2>Your Profile</h2>
+      <center>
+        <p>Kindly Log In or Sign Up for better experience with us</p><br>
+        <h3> Log In | Sign Up</h3><br>
+        <button onclick="backprfpop()" class="backprf">Go Back</button>
+      </center>
+    </div>
+   
+    <hr class="hr1"> 
+
+    <div class="navbar2">
+      <h3 class="items"><a href="mobiles.html">Mobiles</a></h3>
+      <h3 class="items"><a href="laptop.html">Laptop</a></h3>
+      <h3 class="items"><a href="television.html">Television</a></h3>
+      <h3 class="items"><a href="headphones.html">Headphones</a></h3>
+      <h3 class="items"><a href="cameras.html">Cameras</a></h3>
+      <h3 class="items"><a href="smartwatches.html">Smart Watches</a></h3>
+    </div>
+
+    <hr class="hr2">
+
+    <center>
+      <img src="electronics-store-template-design_23-2151125597.avif" width="85%" height="500px">
+    </center>
+
+    <div class="bankoff">
+      <h2>Exciting Bank Offers For You</h2>
+      <img class="img1" src="neu_offers_desk_tkq4lf.webp" width="506px" height="130px">
+      <img class="img1" src="HP_2Split_MFYMP_Brands_HDFC_ICIC_30May2024_kzbaou.webp"  width="506px" height="130px">
+      <img class="img2" src="HP_Singlesplit_HDFC-TataNeu_29Nov2024_bqp29m.webp">
+      <img class="img1" src="HP_2Split_MFYMP_1500_30July2024_sxfs6y-xyz.webp" width="506px" height="130px">
+      <img class="img1" src="HP_2Split_MFYMP_Tue-BOB2_28June2024_nx4jqe-xyz.webp"  width="506px" height="130px">
+    </div>
+
+    <div class="offnew">
+      <center>
+        <img src="Weekdays-Bank-Strip-Dec-D.avif">
+      </center>
+    </div>
+
+    <div class="display">
+      <h2>What's Hot</h2>
+      <div class="brandimgs">
+        <img src="HP_DOTD_TV_3Dec2024_kb4ox0-hot.webp" width="280px" height="290px">
+        <img src="HP_New-at-Croma_google_03dec2024_dh4bpu-hot.webp" width="280px" height="290px">
+        <img src="HP_DOTD_MacBooks_3Dec2024_on4u0z-hot.webp" width="280px" height="290px">
+        <img src="HP_New-at-Croma_TWS_3dec2024_xwgian-hot.webp" width="280px" height="290px">
+      </div>
+    </div>
+
+    <div class="display">
+      <img src="Airdopes-Banner-Hybris-D.avif" width="1150px">
+    </div>
+
+    <div class="display">
+      <img src="Samsung-Galaxy-A55-A35-5G-Onam-Payasam-Carousal-Banner.jpg" width="1150px">
+    </div>
+
+    <div class="display">
+      <h2>Why Ellectoo?</h2>
+      <div class="brandimgs">
+        <img src="Why-Croma_t2lgxr.webp" width="1150px">
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>Connect With Us</h2>
+      <p><i class="fa-solid fa-envelope"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> </p>
+      <p>&copy; Copyright 2024 Ellectoo. All rights reserved</p>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
